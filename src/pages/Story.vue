@@ -2,25 +2,19 @@
   <div class="story-container">
     <div class="story-header">
       <div>
-        <h1>ColorFu's Story</h1>
+        <h1>色彩福的故事</h1>
         <p>
-          Writing the word "福" (Fu) is the tradition of Chinese New Year, people will write a big
-          "福" on red paper and stick it on the door to express the good expectations of the new
-          year.
+          写“福”字是农历新年的传统，人们会在红纸上写一个大大的“福”，贴在门上，表达对新一年的美好期待。
         </p>
         <p>
-          This is a great example that people use words and colors to express their feelings or
-          ideas. And on the other hand, wallpaper is the most common thing we see everyday which
-          should not be cold.
+          这是一个很好的例子，人们使用文字和颜色来表达他们的感受或想法。另一方面，壁纸是我们日常看到的最常见的东西，不应该是冷冰冰的。
         </p>
         <p>
-          What it if you can use more colors and more words to make wallpapers to express more
-          feelings ? In that way, not only can you make your wallpapers beautiful, but also make
-          them meaningful.
+          如果你可以用更多的颜色和更多的文字来制作壁纸来表达更多的感受呢？
+          这样，您不仅可以使您的壁纸美观，而且还可以使它们变得有意义。
         </p>
         <p>
-          There are some colors, patterns and words provided by ColorFu, and you can even extract colors from
-          an image. Find the stories behind them and use them to make your own stories.
+          色彩福提供了一些颜色、图案和文字，您甚至可以从图像中提取颜色。找到它们背后的故事，并用它们来制作你自己的故事。
         </p>
         <p>
           <el-select v-model="selectedValue">

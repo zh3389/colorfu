@@ -10,7 +10,7 @@
             <div class="tool-item">
               <el-dropdown @command="activeDevice = $event" size="medium">
                 <span class="el-dropdown-link">
-                  Size: {{ devices[activeDevice].name
+                  切换设备: {{ devices[activeDevice].name
                   }}<i class="el-icon-arrow-down el-icon--right"></i>
                 </span>
                 <el-dropdown-menu slot="dropdown">
@@ -47,7 +47,7 @@
               </span>
             </div>
             <div class="tool-item">
-              <el-tooltip effect="dark" content="Preview" placement="bottom">
+              <el-tooltip effect="dark" content="预览" placement="bottom">
                 <i class="el-icon-view" @click="handlePreview"></i>
               </el-tooltip>
             </div>
@@ -63,11 +63,11 @@
                 <el-dropdown-menu slot="dropdown">
                   <el-dropdown-item command="image">
                     <i class="el-icon-picture-outline el-icon--left"></i>
-                    Image
+                    图片
                   </el-dropdown-item>
                   <el-dropdown-item command="file">
                     <i class="el-icon-files el-icon--left"></i>
-                    File
+                    文件
                   </el-dropdown-item>
                 </el-dropdown-menu>
               </el-dropdown>

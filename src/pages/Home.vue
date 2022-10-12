@@ -2,14 +2,14 @@
   <div class="home-container">
     <div class="top-container">
       <div class="top-text">
-        <h1>Make beautiful but also meaningful wallpapers.</h1>
+        <h1>制作漂亮但又有意义的壁纸</h1>
         <p>
-          ColorFu is where people can use words, colors, patterns and images to make unique
-          wallpapers to express their feelings or ideas.
+          色彩福是人们可以使用文字、颜色、图案和图像来创造独特风格的地方,
+          用来表达他们的感受或想法的地方
         </p>
         <div style="display: flex">
-          <el-button type="primary" @click="handleStarted">Get Started</el-button>
-          <el-button @click="handleStory">Explore</el-button>
+          <el-button type="primary" @click="handleStarted">快速入门</el-button>
+          <el-button @click="handleStory">探索</el-button>
         </div>
       </div>
       <div class="device-container" ref="deviceContainer">
