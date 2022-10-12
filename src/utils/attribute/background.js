@@ -7,10 +7,10 @@ export function getBackgroundOptions(options) {
     {
       type: "radio",
       key: "background.mode",
-      name: "Mode",
+      name: "模式",
       options: [
-        { value: "image", label: "Image" },
-        { value: "pattern", label: "Pattern" }
+        { value: "image", label: "图片" },
+        { value: "pattern", label: "图案" }
       ],
       relations: [
         {
@@ -48,26 +48,26 @@ function getModeOptions(options) {
       {
         type: "image",
         key: "background.imageURL",
-        name: "Image"
+        name: "图片"
       }
     ];
   } else {
     return [
       {
         type: "collapse",
-        name: "Pattern",
+        name: "图案",
         defaultOpen: false,
         children: [
           {
             type: "select",
             key: "background.type",
-            name: "Type",
+            name: "类型",
             options: [
-              { value: "none", label: "None" },
-              { value: "line", label: "Line" },
-              { value: "dot", label: "Dot" },
-              { value: "wave", label: "Wave" },
-              { value: "square", label: "Square" }
+              { value: "none", label: "无" },
+              { value: "line", label: "线条" },
+              { value: "dot", label: "圆点" },
+              { value: "wave", label: "海浪" },
+              { value: "square", label: "正方形" }
             ],
             relations: [
               {

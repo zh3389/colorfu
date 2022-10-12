@@ -50,7 +50,7 @@
           >
         </div>
         <p>
-          These emojis are from
+          这些表情符号来自
           <el-link type="primary" href="https://github.com/muan/emoji" target="_blank"
             >muan / emoji</el-link
           >
@@ -109,7 +109,7 @@
           class="storey-make-button"
           :disabled="selectedImageColors.length === 0"
           @click="() => handleClickColors('ColorFu', selectedImageColors)"
-          >Make Wallpaper</el-button
+          >制作壁纸</el-button
         >
       </div>
       <div v-if="selectedValue === 'pattern'" class="story-pattern-container">
@@ -145,17 +145,16 @@ export default {
   data() {
     return {
       types: [
-        { value: "color", label: "Color 🌈" },
+        { value: "color", label: "颜色 🌈" },
         {
-          value: "pattern",
-          label: "Pattern 👨‍👩‍👧‍👧",
+          value: "pattern", label: "图案 👨‍👩‍👧‍👧",
         },
-        { value: "emoji", label: "Emoji 😆" },
-        { value: "emoticon", label: "w(ﾟДﾟ)w" },
+        { value: "emoji", label: "Emoji😆" },
+        { value: "emoticon", label: "表情符号" },
       ],
       modes: [
-        { value: "store", label: "From Color Store 🏳️‍🌈" },
-        { value: "image", label: "From Image 🏞️" },
+        { value: "store", label: "从颜色库 🏳️‍🌈" },
+        { value: "image", label: "从图像 🏞️" },
       ],
       selectedValue: "color",
       selectedMode: "store",

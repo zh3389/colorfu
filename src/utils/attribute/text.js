@@ -17,25 +17,25 @@ export function getTextOptions(options) {
     {
       type: "symbol-text",
       key: "text.content",
-      name: "Content",
-      placeholder: "Please input title"
+      name: "内容",
+      placeholder: "请输入文字"
     },
     {
-      name: "Text",
+      name: "字体",
       type: "collapse",
       defaultOpen: false,
       children: [
         {
           type: "select-group",
           key: "text.fontFamily",
-          name: "Font Family",
+          name: "字体商店",
           groups: [
             {
-              label: "Online Fonts",
+              label: "在线字体",
               options: onlineFonts.map(font)
             },
             {
-              label: "System Fonts",
+              label: "系统字体",
               options: systemFonts.map(font)
             }
           ],
@@ -47,11 +47,11 @@ export function getTextOptions(options) {
         {
           type: "select",
           key: "text.mode",
-          name: "Size",
+          name: "字体尺寸",
           options: [
-            { value: "none", label: "Normal" },
-            { value: "autoFit", label: "Auto Fit" },
-            { value: "constrain", label: "Constrain" }
+            { value: "none", label: "普通" },
+            { value: "autoFit", label: "自动调整" },
+            { value: "constrain", label: "强制" }
           ],
           relations: [
             {
@@ -92,19 +92,19 @@ export function getTextOptions(options) {
     },
     {
       type: "collapse",
-      name: "Pattern",
+      name: "图案",
       defaultOpen: false,
       children: [
         {
           type: "select",
           key: "text.type",
-          name: "Type",
+          name: "类型",
           options: [
-            { value: "none", label: "None" },
-            { value: "line", label: "Line" },
-            { value: "dot", label: "Dot" },
-            { value: "wave", label: "Wave" },
-            { value: "square", label: "Square" }
+            { value: "none", label: "无" },
+            { value: "line", label: "线条" },
+            { value: "dot", label: "圆点" },
+            { value: "wave", label: "海浪" },
+            { value: "square", label: "正方形" }
           ],
           relations: getPatternRelations(options, "text")
         },
@@ -119,19 +119,19 @@ function getTextFontOptions(options) {
   const fontSize = {
     type: "number",
     key: "text.fontSize",
-    name: "Font Size",
+    name: "字体大小",
     min: 50
   };
   const padding = {
     type: "number",
     key: "text.padding",
-    name: "Padding",
+    name: "填充",
     min: 0
   };
   const dy = {
     type: "number",
     key: "text.dy",
-    name: "Offset Y"
+    name: "偏移Y"
   };
   if (mode === "none") return [fontSize, dy];
   if (mode === "autoFit") return [padding, dy];

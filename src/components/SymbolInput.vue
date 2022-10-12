@@ -3,7 +3,7 @@
     <el-popover placement="top" width="300" trigger="focus">
       <div class="emoji-input-popover">
         <el-tabs value="first">
-          <el-tab-pane label="w(ﾟДﾟ)w" name="first">
+          <el-tab-pane label="表情符号" name="first">
             <emoticon-picker @input="handleInput" />
           </el-tab-pane>
           <el-tab-pane label="Emoji 😆" name="second">

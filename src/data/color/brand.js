@@ -1,14 +1,14 @@
 export const brand = {
-  name: "Brand",
-  des: "From some famous brands.",
+  name: "品牌",
+  des: "来自一些著名品牌",
   colors: [
     {
-      name: "Twitter",
+      name: "推特",
       values: ["#1ca4f4"],
       link: "https://twitter.com",
     },
     {
-      name: "Ant Group",
+      name: "蚂蚁集团",
       values: ["#147bfb"],
       link: "https://www.antgroup.com/",
     },
@@ -18,12 +18,12 @@ export const brand = {
       link: "http://connect.facebook.com/",
     },
     {
-      name: "Alibaba",
+      name: "阿里巴巴",
       values: ["#DD4B22"],
       link: "https://www.alibabagroup.com/cn/global/home",
     },
     {
-      name: "Bilibli",
+      name: "哔哩哔哩",
       values: ["#fa729a"],
       link: "https://www.bilibili.com/",
     },
@@ -38,12 +38,12 @@ export const brand = {
       link: "https://antv.vision",
     },
     {
-      name: "Yuque",
+      name: "语雀",
       values: ["#30CD7A", "#7FE160"],
       link: "https://www.yuque.com/",
     },
     {
-      name: "Tik Tok",
+      name: "海外抖音",
       values: ["#111111", "#10faef", "#ff0050"],
       link: "https://www.douyin.com/",
     },
@@ -53,12 +53,12 @@ export const brand = {
       link: "https://www.figma.com",
     },
     {
-      name: "Microsoft",
+      name: "微软",
       values: ["#00ACEE", "#8cc33c", "#fbc30c", "#f26323"],
       link: "https://www.microsoft.com/zh-cn",
     },
     {
-      name: "Google",
+      name: "谷歌",
       values: ["#4484f1", "#35a454", "#F8BA03", "#ed6828"],
       link: "https://www.google.com/",
     },

@@ -1,6 +1,6 @@
 export const patterns = [
   {
-    label: "Line",
+    label: "线条",
     textColor: "#FFDC34",
     options: {
       type: "line",
@@ -13,7 +13,7 @@ export const patterns = [
     },
   },
   {
-    label: "Wave",
+    label: "海浪",
     textColor: "#372923",
     options: {
       type: "wave",
@@ -28,7 +28,7 @@ export const patterns = [
     },
   },
   {
-    label: "Dot",
+    label: "圆点",
     textColor: "#583d33",
     options: {
       type: "dot",
@@ -44,7 +44,7 @@ export const patterns = [
     },
   },
   {
-    label: "Square",
+    label: "正方形",
     textColor: "#FFD460",
     options: {
       type: "square",

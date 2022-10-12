@@ -12,7 +12,7 @@ function getWordsColors(options) {
       {
         type: "color",
         key: "text.color",
-        name: "Words Color"
+        name: "文字颜色"
       }
     ];
   } else {
@@ -29,7 +29,7 @@ function getBackgroundColors(options) {
       {
         type: "color",
         key: "background.color",
-        name: "Background Color"
+        name: "背景颜色"
       }
     ];
   } else {

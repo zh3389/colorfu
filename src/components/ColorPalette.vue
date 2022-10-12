@@ -15,7 +15,7 @@
       @mouseleave="showButtons = false"
     >
       <el-empty
-        description="No colors, hover to add."
+        description="没有颜色，悬停添加。"
         :style="{
           opacity: showButtons ? 0 : 1,
         }"
@@ -23,14 +23,14 @@
       </el-empty>
       <div class="color-palette-btns" v-if="showButtons">
         <el-button icon="el-icon-plus" type="primary" @click="showColorsStore = true" size="small"
-          >Color Store</el-button
+          >色彩商店</el-button
         >
         <el-button
           icon="el-icon-plus"
           type="primary"
           @click="showImageExtractor = true"
           size="small"
-          >From Image</el-button
+          >从图像</el-button
         >
       </div>
     </div>
@@ -45,14 +45,14 @@
       ></span>
       <el-popover placement="bottom" trigger="hover">
         <el-button icon="el-icon-plus" type="primary" @click="showColorsStore = true" size="small"
-          >Color Store</el-button
+          >色彩商店</el-button
         >
         <el-button
           icon="el-icon-plus"
           type="primary"
           @click="showImageExtractor = true"
           size="small"
-          >From Image</el-button
+          >从图像</el-button
         >
         <i
           slot="reference"
@@ -65,7 +65,7 @@
         ></i>
       </el-popover>
     </div>
-    <el-dialog title="Color Store" width="1000px" :visible.sync="showColorsStore">
+    <el-dialog title="色彩商店" width="1000px" :visible.sync="showColorsStore">
       <el-tabs :value="colorStore[0].name">
         <el-tab-pane
           :label="item.name"
@@ -109,18 +109,18 @@
         </el-tab-pane>
       </el-tabs>
       <span slot="footer" class="dialog-footer">
-        <el-button @click="showColorsStore = false">Cancel</el-button>
+        <el-button @click="showColorsStore = false">取消</el-button>
       </span>
     </el-dialog>
-    <el-dialog title="Extract Colors From Image" :visible.sync="showImageExtractor">
+    <el-dialog title="从图像中提取颜色" :visible.sync="showImageExtractor">
       <image-color-picker v-model="selectedImageColors" />
       <span slot="footer" class="dialog-footer">
-        <el-button @click="handleCloseImageColorPicker">Cancel</el-button>
+        <el-button @click="handleCloseImageColorPicker">取消</el-button>
         <el-button
           type="primary"
           @click="handleAddImageColors"
           v-show="selectedImageColors.length !== 0"
-          >Add</el-button
+          >添加</el-button
         >
       </span>
     </el-dialog>
@@ -175,7 +175,7 @@ export default {
       const colorSet = new Set(this.colors);
       const newColors = colors.filter((d) => !colorSet.has(d));
       if (colors.length !== newColors.length) {
-        Message.warning("Repeat colors will not be added.");
+        Message.warning("不会添加重复颜色。");
       }
 
       // 更新颜色

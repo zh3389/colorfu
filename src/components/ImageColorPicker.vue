@@ -77,7 +77,7 @@ export default {
           const colors = colorThief.getPalette(img).map((d) => rgbToHex(...d));
           this.imageColors = colors;
         } catch (e) {
-          Message.error("Extract colors from image failed!");
+          Message.error("从图像提取颜色失败！");
         }
       },
     },
@@ -88,7 +88,7 @@ export default {
       const newSelectedImageColorIndex = [...this.selectedImageColorIndex];
       if (i === -1) {
         if (this.selectedImageColorIndex.length >= this.maxCount) {
-          Message.error(`Only can select ${this.maxCount} colors.`);
+          Message.error(`只能选择 ${this.maxCount} 颜色.`);
           return;
         }
         newSelectedImageColorIndex.push(index);

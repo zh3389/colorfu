@@ -210,7 +210,7 @@ export default {
       } catch (e) {
         Message.error({
           message:
-            "The online image can't be downloaded, You can take a screenshot in preview mode or upload local image!",
+            "无法下载在线图像，您可以在预览模式下截图或上传本地图像！",
           duration: 5000,
         });
         console.log(e);
@@ -226,7 +226,7 @@ export default {
       try {
         await document.documentElement.requestFullscreen();
       } catch {
-        Message.success("Failed to enter full screen");
+        Message.success("无法进入全屏");
       }
     },
   },

@@ -1,6 +1,6 @@
 <template>
   <div class="nav-header-container">
-    <span class="nav-logo" @click="goHome">ColorFu</span>
+    <span class="nav-logo" @click="goHome">色彩福</span>
     <el-menu
       mode="horizontal"
       :router="true"
@@ -9,12 +9,9 @@
       text-color="#ffffff"
       active-text-color="#999999"
     >
-      <el-menu-item index="/">Home</el-menu-item>
-      <el-menu-item index="/editor">Editor</el-menu-item>
-      <el-menu-item index="/story">Story</el-menu-item>
-      <el-menu-item index="">
-        <a href="https://github.com/pearmini/carpe-diem" target="_blank">Github</a>
-      </el-menu-item>
+      <el-menu-item index="/">首页</el-menu-item>
+      <el-menu-item index="/editor">编辑器</el-menu-item>
+      <el-menu-item index="/story">色彩福的故事</el-menu-item>
     </el-menu>
   </div>
 </template>

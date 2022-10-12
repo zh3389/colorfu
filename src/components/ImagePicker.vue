@@ -34,7 +34,7 @@
             icon="el-icon-upload"
             type="primary"
             @click="handleUploadOnline"
-            >Online</el-button
+            >在线的</el-button
           >
         </div>
       </div>
@@ -42,7 +42,7 @@
     <el-dialog title="Upload online image" :visible.sync="showUploadDialog" append-to-body>
       <el-input v-model="onlineImageURL" />
       <span slot="footer" class="dialog-footer">
-        <el-button @click="showUploadDialog = false">Cancel</el-button>
+        <el-button @click="showUploadDialog = false">取消</el-button>
         <el-button type="primary" @click="handleConfirmOnline">Confirm</el-button>
       </span>
     </el-dialog>
@@ -99,13 +99,13 @@ export default {
     },
     handleClickOverlay(e) {
       if (this.uploaded) {
-        Message.error("Please delete uploaded image first!");
+        Message.error("请先删除上传的图片！");
         e.stopPropagation();
       }
     },
     handleConfirmOnline() {
       if (!this.onlineImageURL) {
-        Message.error("Please provide non-empty url!");
+        Message.error("请提供非空url！");
       } else {
         this.$emit("change", this.onlineImageURL);
       }
@@ -114,7 +114,7 @@ export default {
     handleErrorImage() {
       // 发生错误的时候设置为之前的 imageURL 比较合理
       // 这样看上去什么也没有发生
-      Message.error("Invalid image url!");
+      Message.error("图像url无效！");
       this.$emit("change", this.preImageURL);
     },
   },

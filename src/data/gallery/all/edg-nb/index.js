@@ -1,6 +1,6 @@
 import options from "./index.json";
 
 export const EDGNB = {
-  name: "EDG NB",
+  name: "色彩福",
   options
 };

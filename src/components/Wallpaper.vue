@@ -74,7 +74,7 @@ export default {
         this.$emit("on-success", this.$refs.canvas);
         this.rendering = false;
       } catch (e) {
-        Message.error("Failed to draw!");
+        Message.error("绘制失败！");
         console.error(e);
         this.rendering = false;
         this.loading = false;

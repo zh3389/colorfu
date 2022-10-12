@@ -1,6 +1,6 @@
 export const artworks = {
-  name: "Artworks",
-  des: "From some famous artworks.",
+  name: "艺术品",
+  des: "来自一些著名的艺术品",
   colors: [
     {
       name: "IKB 79",

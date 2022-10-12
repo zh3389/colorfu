@@ -1,7 +1,7 @@
 <template>
   <div class="emoticon-picker-container">
     <div class="emoticon-picker-header">
-      <el-button type="primary" size="mini" @click="generateEmotion">Refresh</el-button>
+      <el-button type="primary" size="mini" @click="generateEmotion">随机</el-button>
       <span class="emoticon-picker-item" @click="() => handleClick(randomEmoticon)">{{
         randomEmoticon
       }}</span>
