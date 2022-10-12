@@ -1,53 +1,53 @@
-# ColorFu
+# 色彩福
 
-ColorFu is where people can use words, colors, patterns and images to make unique wallpapers to express their feelings or ideas.
+色彩福 是人们可以使用文字、颜色、图案和图像制作独特的壁纸来表达他们的感受或想法的地方。
 
 ![home](https://s2.loli.net/2021/12/19/VwQoEpFLWbgceHk.png)
 
 ![example](https://i.loli.net/2021/11/21/rThjJi82VIsWZMa.png)
 
-## Why is it
+## 色彩福的故事
 
-Writing the word "福" (Fu) is the tradition of Chinese New Year, people will write a big "福" on red paper and stick it on the door to express the good expectations of the new year.
+写“福”字是农历新年的传统，人们会在红纸上写一个大大的“福”，贴在门上，表达对新一年的美好期待。
 
 ![fu](https://i.loli.net/2021/11/08/shFjeYXUEgGJ5AZ.png)
 
-This is a great example that people use words and colors to express their feelings or ideas. And on the other hand, wallpaper is the most common thing we see everyday which should not be cold.
+这是一个很好的例子，人们使用文字和颜色来表达他们的感受或想法。另一方面，壁纸是我们日常看到的最常见的东西，不应该是冷的。
 
-What it if you can use more colors and more words to make wallpapers to express more feelings ? In that way, not only can you make your wallpapers beautiful, but also make them meaningful.
+如果你可以用更多的颜色和更多的文字来制作壁纸来表达更多的感受呢？这样，您不仅可以使您的壁纸美观，而且还可以使它们变得有意义。
 
 ![good mode](https://i.loli.net/2021/11/08/kdPIX5V2WxhoGeR.png)
 
 ![be your self](https://i.loli.net/2021/11/08/hOeS96JyQ72fZ4V.png)
 
-## Features
+## 特征
 
-1. There are some interesting color pallettes for you to help you express your feelings.
+1. 有一些有趣的调色板可以帮助您表达自己的感受。
 
 ![color store](https://i.loli.net/2021/11/08/tHmdewQEgbDnikR.png)
 
-2. Extract colors from image.
+2. 从图像中提取颜色。
 
 ![image](https://i.loli.net/2021/11/21/QFwx4K8mygNuMlL.png)
 
-3. There are some emojis and emoticons for your to boost your imagination.
+3. 有一些表情符号和表情符号可以激发您的想象力。
 
 ![emojis](https://i.loli.net/2021/11/08/IudDlx8psqVPCwG.png)
 
-4. Supports multiple devices: PC, phone, pad.
+4. 支持多种设备：PC、手机、pad。
 
 ![devices](https://s2.loli.net/2021/12/19/hnTIWV76qO9ew8P.png)
 
-## How to contribute
+## 如何贡献
 
-- Add more patterns.([code](./src/utils/pattern), [config](./src/utils/attribute/pattern))
-- Add more [colors or collections of colors](./src/data/color).
-- Add more [examples](./src/data/gallery/all).
-- Add more [emojis](./src/data/emoji-by-group.json) or [emoticons](./src/data/emoticons.json).
+- 添加更多模式。([代码](./src/utils/pattern), [配置](./src/utils/attribute/pattern))
+- 添加更多 [颜色或颜色集合](./src/data/color).
+- 添加更多 [示例](./src/data/gallery/all).
+- 添加更多 [emoji](./src/data/emoji-by-group.json) or [表情符号](./src/data/emoticons.json).
 
-## Special Thanks
+## 特别感谢
 
-Special Thanks for [@Angelii](https://github.com/Angelii) for providing the features of drawing patterns to make ColorFu more powerful and fixable.
+特别感谢 [@Angelii](https://github.com/Angelii)提供了绘图模式的功能，让 色彩福 更加强大和可修复。
 
 ## License
 
