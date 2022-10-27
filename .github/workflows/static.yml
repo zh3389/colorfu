@@ -39,7 +39,7 @@ jobs:
         
       - name: Deploy
         # 构建发布 Github pages
-        uses: zh3389/colorfu@gh-pages
+        uses: zh3389/colorfu@main
         # 该步骤所需的环境变量
         with:
             ACCESS_TOKEN: ${{ secrets.ACTION_TOKEN }}
