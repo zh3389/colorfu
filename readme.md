@@ -38,6 +38,11 @@
 
 ![devices](https://s2.loli.net/2021/12/19/hnTIWV76qO9ew8P.png)
 
+## 快速运行
+
+- docker pull mrzhang3389/colorfu:latest
+- docker run -p 60000:80 -d mrzhang3389/colorfu
+
 ## 如何贡献
 
 - 添加更多模式。([代码](./src/utils/pattern), [配置](./src/utils/attribute/pattern))
